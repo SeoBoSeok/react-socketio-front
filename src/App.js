@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import LoginWrapContainer from './containers/LoginWrapContainer';
 import ChatWrapContainer from './containers/ChatWrapContainer';
 import io from 'socket.io-client';
-const socket = io();
+const socket = io('http://13.124.223.234:3000');
 
 class App extends Component {
   render() {

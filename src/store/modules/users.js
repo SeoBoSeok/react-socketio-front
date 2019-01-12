@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 
 import io from 'socket.io-client';
 dotenv.config();
-const socket = io(process.env.REACT_APP_SOCKET_HOST);
+const socket = io('http://13.124.223.234:3000');
 
 
 const SET_USER = 'users/SET_USER';
