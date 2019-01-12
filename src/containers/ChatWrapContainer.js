@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { actionCreators } from 'store/modules/chat';
+import { actionCreators } from '../store/modules/chat';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import Messages from 'components/Messages';
-import InputBox from 'components/InputBox';
+import Messages from '../components/Messages';
+import InputBox from '../components/InputBox';
 
 class ChatWrapContainer extends Component {
 

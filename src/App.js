@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import LoginWrapContainer from 'containers/LoginWrapContainer';
-import ChatWrapContainer from 'containers/ChatWrapContainer';
+import LoginWrapContainer from './containers/LoginWrapContainer';
+import ChatWrapContainer from './containers/ChatWrapContainer';
 import io from 'socket.io-client';
 const socket = io();
 

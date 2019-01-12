@@ -1,5 +1,5 @@
 import React from 'react';
-import MessageBody from 'components/MessageBody';
+import MessageBody from '../components/MessageBody';
 import PropTypes from 'prop-types';
 
 const Messages = ({logs}) => {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import LoginWrap from 'components/LoginWrap.js';
-import { actionCreators } from 'store/modules/users';
-import { actionCreators as chatActionCreators } from 'store/modules/chat';
+import LoginWrap from '../components/LoginWrap';
+import { actionCreators } from '../store/modules/users';
+import { actionCreators as chatActionCreators } from '../store/modules/chat';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
