@@ -1,10 +1,10 @@
 import { createAction, handleActions } from 'redux-actions';
 import { Map } from 'immutable';
-// import dotenv from 'dotenv';
+import dotenv from 'dotenv';
 
-// // import io from 'socket.io-client';
-// // dotenv.config();
-// // const socket = io(process.env.REACT_APP_SOCKET_HOST);
+import io from 'socket.io-client';
+dotenv.config();
+const socket = io(process.env.REACT_APP_SOCKET_HOST);
 
 
 const SET_USER = 'users/SET_USER';
