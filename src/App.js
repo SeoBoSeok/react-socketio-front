@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import LoginWrapContainer from './containers/LoginWrapContainer';
 import ChatWrapContainer from './containers/ChatWrapContainer';
 import io from 'socket.io-client';
+import dotenv from 'dotenv';
+
 dotenv.config();
 const socket = io(process.env.REACT_APP_SOCKET_HOST);
 // const socket = io();
