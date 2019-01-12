@@ -15,10 +15,10 @@ export const actionCreators = {
   set_user : createAction(SET_USER),
 };
 
-// actionCreators.set_userAsync = (username) => dispatch => {
-//   socket.emit('add user', username);
-//   dispatch(actionCreators.set_user());
-// }
+actionCreators.set_userAsync = (username) => dispatch => {
+  socket.emit('add user', username);
+  dispatch(actionCreators.set_user());
+}
 
 const initialState = Map({
     status: false,
